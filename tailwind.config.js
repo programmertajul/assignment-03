@@ -2,12 +2,19 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      fontfamily: {
+        extend:{
+            fontfamily: {
 
-        'adlam': ['ADLaM Display'],
-        'sora':['Sora'],
+                "adlam": "ADLaM Display"
+        
+        
+              },
 
-      },
+              height:{
+                "340": "85rem"
+              }
+        },
+      
     },
     plugins: [],
   }
