@@ -2,7 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      fontfamily: {
+
+        'adlam': ['ADLaM Display'],
+        'sora':['Sora'],
+
+      },
     },
     plugins: [],
   }
