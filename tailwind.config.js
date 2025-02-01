@@ -7,7 +7,11 @@ module.exports = {
 
                 "adlam": "ADLaM Display"
         
-        
+              },
+
+              width:{
+                "320": "80rem"
+
               },
 
               height:{
