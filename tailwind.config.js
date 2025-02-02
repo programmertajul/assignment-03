@@ -1,14 +1,12 @@
+
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
         extend:{
-            fontfamily: {
-
-                "adlam": "ADLaM Display"
-        
-              },
-
+          
               width:{
                 "320": "80rem"
 
